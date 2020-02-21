@@ -1,3 +1,41 @@
+# Theia IDE on Ainize
+
+- __Full version__ [![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps)
+- __Mini version__ [![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps-docker)
+
+### Step.1 Fork and Clone your theia-apps repo
+```
+git clone https://github.com/${YOUR-GITHUB-ID}/theia-apps.git
+
+```
+
+### Step.2 Docker build and push it to Docker Hub
+
+- For full version
+```
+docker build -f theia-full-docker/Dockerfile -t ${YOUR-DOCKER-HUB-ID}/theia-apps .
+docker push ${YOUR-DOCKER-HUB-ID}/theia-apps
+```
+
+- For mini version
+```
+docker build -f theia-docker/Dockerfile -t ${YOUR-DOCKER-HUB-ID}/theia-apps .
+docker push ${YOUR-DOCKER-HUB-ID}/theia-apps
+```
+
+### Step.3 Sign up and apply beta test at [Ainize.ai](https://ainize.ai)
+
+### Step.4 Deploy theia IDE on Ainize ([Tutorial](https://ai-network.gitbook.io/ainize-tutorials/ainize/hello-world#ainize-steps))
+
+1. Enter your Github repo url, `https://github.com/${YOUR-GITHUB-ID}/theia-apps`
+2. Enter your dockerhub container id, `${YOUR-DOCKER-HUB-ID}/theia-apps`
+3. Set port as 3000.
+
+### Step.5 Open and enjoy theia IDE!
+
+https://theia-apps.laeyoung.endpoint.dev.ainize.ai/ (change __laeyoung__ to __your-ainize-ai__)
+
+
 # Theia applications
 [![Build Status](https://travis-ci.org/theia-ide/theia-apps.svg?branch=master)](https://travis-ci.org/theia-ide/theia-apps)
 
