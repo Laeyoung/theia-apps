@@ -1,6 +1,6 @@
 # Theia IDE on Ainize
 
-- __Full version__ [![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps)
+- __Full version__ [![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps)
 - __Mini version__ [![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps-docker)
 
 ### Step.1 Fork and Clone your theia-apps repo
@@ -33,7 +33,7 @@ docker push ${YOUR-DOCKER-HUB-ID}/theia-apps
 
 ### Step.5 Open and enjoy theia IDE!
 
-https://theia-apps.laeyoung.endpoint.dev.ainize.ai/ (change __laeyoung__ to __your-ainize-ai__)
+https://theia-apps.laeyoung.endpoint.ainize.ai/ (change __laeyoung__ to __your-ainize-ai__)
 
 
 # Theia applications
