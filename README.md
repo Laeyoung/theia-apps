@@ -1,7 +1,6 @@
 # Theia IDE on Ainize
 
-- __Full version__ [![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps)
-- __Mini version__ [![Run on Ainize](https://ainize-dev.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize-dev.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps-docker)
+[![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/theia-apps)
 
 ### Step.1 Fork and Clone your theia-apps repo
 ```
